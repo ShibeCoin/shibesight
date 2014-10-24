@@ -114,28 +114,26 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
 
 .navbar-default {
-    background-color: #000;
+    background-color: #F1C40F !important;
     margin: 0;
     border: 0;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #CCCCCC;
+    color: #F4FBE8;
     font-family: 'Ubuntu', sans-serif;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
-    background-color: #000000;
-    color: #fff;
-    border-bottom:2px solid #1fbba6;
+    background-color: #F4F4F4;
+    color: #373D42;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a:hover {
-    background-color: #000000;
+    background-color: #F1D40F;
     color: #fff;
-    border-bottom:2px solid #1fbba6
 }
 
 .navbar-form .form-group {
@@ -226,12 +224,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .status {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
-    background-color: #104E94;
+    background-color: #373D42;
     border-radius: 3px;
     margin: 15px 0;
     padding: 8px 10px;
     font-size: 12px;
-    color: #eee;
+    color: #fff;
     text-align: center;
     margin-right: 10px;
 }
@@ -247,6 +245,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     border-radius: 5px;
     padding: 14px;
     border: 1px solid #eee;
+	margin-top: 20px;
 }
 
 .col-gray-responsive {
@@ -326,8 +325,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     border-radius: 2px;
 }
 .btn-primary {
-    background-color: #F00329;
-    border: 2px solid #900219;
+    background-color: #F1C40F;
+    border: 2px solid #FFF;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active,
@@ -658,7 +657,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 a.v_highlight_more {
-    background-color: #FEE6EA;
+    background-color: #F9E7A2;
     color: #333;
 }
 
@@ -833,4 +832,3 @@ a.v_highlight_more {
         width: 350px;
     }
 }
-
